@@ -114,7 +114,7 @@ export default function IntroScreen() {
           </p>
           <div
             ref={nameRef}
-            className="flex flex-wrap overflow-hidden text-6xl font-semibold leading-none sm:text-8xl lg:text-9xl"
+            className="flex flex-wrap overflow-hidden text-4xl font-semibold leading-none sm:text-8xl lg:text-9xl"
           >
             {profileInfo.name.split("").map((letter, index) => (
               <span
@@ -133,7 +133,7 @@ export default function IntroScreen() {
           </p>
 
           <div className="mt-8 flex max-w-xl gap-3 flex-wrap">
-            {["Landing Page", "CRM", "Dashboard System"].map((item) => (
+            {["Landing Page", "CMS", "Dashboard"].map((item) => (
               <div
                 className="intro-chip intro-float rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-semibold text-zinc-200"
                 key={item}
@@ -174,7 +174,7 @@ export default function IntroScreen() {
 
         <div
           ref={imageRef}
-          className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-[2rem] border border-white/10 bg-zinc-950/45 shadow-2xl shadow-black/40 backdrop-blur-sm lg:max-w-md"
+          className="max-sm:hidden relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-[2rem] border border-white/10 bg-zinc-950/45 shadow-2xl shadow-black/40 backdrop-blur-sm lg:max-w-md"
         >
           <Image
             src="/biin.jpg"

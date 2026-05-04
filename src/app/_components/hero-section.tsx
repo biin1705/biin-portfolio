@@ -39,7 +39,7 @@ export default function HeroSection() {
             I build fast, elegant <AnimatedWord /> for modern web products.
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-300">
-            Front-end developer focused on polished interaction, maintainable UI
+            Frontend developer focused on polished interaction, maintainable UI
             systems, and product-ready web experiences.
           </p>
 
@@ -68,12 +68,7 @@ export default function HeroSection() {
           whileInView={{ opacity: 1, rotateY: 0, y: 0 }}
         >
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_44%,theme(colors.sky.400/0.22),transparent_20rem),radial-gradient(circle_at_72%_68%,theme(colors.emerald.400/0.13),transparent_18rem)]" />
-          <div className="absolute inset-x-6 top-5 z-10 flex items-center justify-between text-xs font-medium text-zinc-400">
-            <span>react.atom.scene</span>
-            <span className="rounded-full bg-sky-300 px-2 py-1 text-zinc-950">
-              rotating
-            </span>
-          </div>
+          
           <div className="absolute inset-0">
             <ReactLogoScene />
           </div>

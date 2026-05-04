@@ -16,6 +16,9 @@ export default function SiteNav() {
         <a className="transition hover:text-zinc-950" href="#about">
           About
         </a>
+        <a className="transition hover:text-zinc-950" href="#summary">
+          Summary
+        </a>
         <a className="transition hover:text-zinc-950" href="#skills">
           Skills
         </a>

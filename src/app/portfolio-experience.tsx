@@ -9,6 +9,7 @@ import IntroScreen from "./_components/intro-screen";
 import { INTRO_DURATION } from "./_components/portfolio-data";
 import SiteNav from "./_components/site-nav";
 import SkillsSection from "./_components/skills-section";
+import SummarySection from "./_components/summary-section";
 import ThreeModal from "./_components/three-modal";
 
 export default function PortfolioExperience() {
@@ -28,6 +29,7 @@ export default function PortfolioExperience() {
       <SiteNav />
       <main className="h-screen snap-y snap-mandatory overflow-y-auto scroll-smooth bg-zinc-50 text-zinc-950">
         <HeroSection />
+        <SummarySection />
         <SkillsSection />
         <ExperienceEducationSection />
         <ContactMeSection />
